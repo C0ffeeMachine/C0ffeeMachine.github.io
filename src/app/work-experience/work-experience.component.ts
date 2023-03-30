@@ -14,21 +14,16 @@ export class WorkExperienceComponent implements OnInit{
   ngOnInit(): void {
     this.workExperienceList = [
       {
-        role: "Software Engineer",
-        company: "Infosys",
-        duration: "2019",
+        role: "Digital Specialist Engineer",
+        company: "Infosys Ltd",
+        duration: "2021-present",
         description: [
-          "Worked in multiple domains",
-          "Worked in Financila domain"
-        ]
-      },
-      {
-        role: "Software Engineer",
-        company: "Infosys",
-        duration: "2019",
-        description: [
-          "Worked in multiple domains",
-          "Worked in Financila domain"
+          "I worked in the domain of Financial Service wherein I have developed and delivered REST Apis",
+          "Improved few of the apis by replacing the sequential calls with the asynchronus calls (used completable future from java 8) , hence improved the latency and responsiveness",
+          "I made a new microservice for the Loan Rate Functionality which enhanced ease of understanding , scalability and maintainability of the service",
+          "Implemented Drools Engine on Loan Eligibility Service to ascertain accounts eligibility as well as customer eligibility for pledging the accounts for the loan booking",
+          "Used Arcata service discovery and declarative rest client for the integration of other microservice into Loan Orchestration service",
+          "Took internal certification of GCP(Google Cloud Platform)"
         ]
       }
     ];

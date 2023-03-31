@@ -19,7 +19,7 @@ export class PersonalInformationComponent implements OnInit{
       ["DOB", "26/03/1998"],
       ["Education", "B.Tech in Computer Science and Engineering"],
       ["Work Experience", "2+ years"],
-      ["Interests", ""]
+      ["Interests", "Problem Solving,Productivity and time management,Soft skills,Cloud architecture,Web development"]
     ];
     this.aboutMe = ["As a software engineer with over 2 years of experience, I have gained a solid foundation in software development and have been exposed to various aspects of the software development life cycle.",
     "I have experience in developing scalable , maintainable , low latency systems using spring boot, java8, microservices architecture , etc. and have demonstrated my ability to deliver high-quality software on time.",

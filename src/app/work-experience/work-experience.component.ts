@@ -16,7 +16,7 @@ export class WorkExperienceComponent implements OnInit{
       {
         role: "Digital Specialist Engineer",
         company: "Infosys Ltd",
-        duration: "2021-present",
+        duration: "June,2021-present",
         description: [
           "I worked in the domain of Financial Service wherein I have developed and delivered REST Apis",
           "Improved few of the apis by replacing the sequential calls with the asynchronus calls (used completable future from java 8) , hence improved the latency and responsiveness",
